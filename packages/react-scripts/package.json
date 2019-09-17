@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
-  "version": "3.1.1",
+  "name": "@bdharrington7/react-scripts",
+  "version": "1.0.0",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "git+https://github.com/facebook/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -80,7 +80,8 @@
     "webpack": "4.40.2",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
-    "workbox-webpack-plugin": "4.3.1"
+    "workbox-webpack-plugin": "4.3.1",
+    "fsevents": "2.0.7"
   },
   "devDependencies": {
     "react": "^16.8.4",
@@ -100,5 +101,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "homepage": "https://github.com/facebook/create-react-app#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
